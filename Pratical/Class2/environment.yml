@@ -1,0 +1,28 @@
+name: SAM
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - ipython
+  - jupyter
+  - pandas
+  - scikit-learn
+  - ffmpeg
+  - numba
+  - jupyter_contrib_nbextensions
+  - jupyter_client
+  - pip:
+      - mir-eval
+      - nbstripout
+      - music21
+      - pretty_midi
+      - librosa
+      - soundfile
+      - resampy
